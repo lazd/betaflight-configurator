@@ -149,6 +149,9 @@ $(document).ready(function () {
                     case 'osd':
                         TABS.osd.initialize(content_ready);
                         break;
+                    case 'vtx':
+                        TABS.vtx.initialize(content_ready);
+                        break;
                     case 'setup':
                         TABS.setup.initialize(content_ready);
                         break;
@@ -474,4 +477,11 @@ function updateTabList(features) {
     } else {
         $('#tabs ul.mode-connected li.tab_osd').hide();
     }
+
+    // @todo: proper feature detection
+    // if (features.isEnabled('VTX')) {
+        $('#tabs ul.mode-connected li.tab_vtx').show();
+    // } else {
+    //     $('#tabs ul.mode-connected li.tab_vtx').hide();
+    // }
 }

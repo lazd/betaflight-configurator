@@ -100,6 +100,9 @@
     "tabOsd": {
         "message": "OSD"
     },
+    "tabVTX": {
+        "message": "VTX"
+    },
     "tabGPS": {
         "message": "GPS"
     },
@@ -544,6 +547,9 @@
     },
     "featureOSD": {
         "message": "On Screen Display"
+    },
+    "featureVTX": {
+        "message": "Video Transmitter"
     },
     "featureFAILSAFE": {
         "message": "Enable Failsafe Stage 2"
@@ -1188,6 +1194,23 @@
     },
     "servosEepromSave": {
         "message": "EEPROM <span style=\"color: #ffbb00\">saved</span>"
+    },
+
+    "vtxConfiguration": {
+        "message": "VTX Configuration"
+    },
+
+    "vtxButtonSave": {
+        "message": "Save"
+    },
+    "vtxChannel": {
+        "message": "Channel"
+    },
+    "vtxPower": {
+        "message": "Power"
+    },
+    "vtxBand": {
+        "message": "Band"
     },
 
     "gpsHead": {

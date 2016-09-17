@@ -63,6 +63,9 @@ var Features = function (config) {
             features.push(
                 {bit: 18, group: 'other', name: 'OSD'}
             );
+            features.push(
+                {bit: 18, group: 'other', name: 'VTX', haveTip: true}
+            );
         }
     }
 
